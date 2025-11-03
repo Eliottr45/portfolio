@@ -1,0 +1,11 @@
+<!DOCTYPE HMTL>
+<hmtl lang = "fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio d'Eliot Tourtelier</title>
+    </head>
+    <body>
+        <h1>Mon portfolio</h1>
+        <img src="asset/Photo_TOURTELIER_Eliot_SOURIRE.jpg" alt="Photographie professionnel" width="400" height="341" title="Tourtelier Eliot" />
+    </body>
+</hmtl>
