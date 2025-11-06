@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="formulaire.css" />
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="affichage_page">
+        <button
+          class="liens"
+          type="button"
+          onclick="window.location.href = 'portfolio.html'"
+        >
+          Ma présentation
+        </button>
+
+        <button
+          class="liens"
+          type="button"
+          onclick="window.location.href = 'mes_projets.html'"
+        >
+          Mes projets
+        </button>
+
+        <button
+          class="liens"
+          type="button"
+          onclick="window.location.href = 'formulaire.html'"
+        >
+          Formulaire
+        </button>
+      </div>
+
+      <button
+        id="contact"
+        type="button"
+        onclick="window.location.href = '#mes_coordonnees'"
+      >
+        <img
+          src="asset/Photo_TOURTELIER_Eliot_SOURIRE.jpg"
+          alt="Bouton menant à la fiche de contact"
+          width="50"
+          height="50"
+          title="Contact"
+          class="pdp"
+        />
+      </button>
+    </header>
+
+    <main>
+      <h1>Formulaire de contact</h1>
+
+      <section class="contact">
+        <!--formulaire de contact a remplir-->
+
+        <div>
+          <form>
+            <div class="info_utilisateur">
+              <label for="nom" class="label">Vôtre nom:</label>
+              <input type="text" class="champ" name="nom" id="nom" required />
+            </div>
+
+            <div class="info_utilisateur">
+              <label for="prenom" class="label">Vôtre prénom:</label>
+              <input
+                type="text"
+                class="champ"
+                name="prenom"
+                id="prenom"
+                required
+              />
+            </div>
+
+            <div class="info_utilisateur">
+              <label for="email" class="label"> Vôtre e-mail:</label>
+              <input
+                type="email"
+                class="champ"
+                name="email"
+                id="email"
+                required
+              />
+            </div>
+
+            <div class="info_utilisateur">
+              <label for="telephone" class="label"
+                >Vôtre numéro de téléphone:</label
+              >
+              <input
+                type="phone"
+                class="champ"
+                name="telephone"
+                id="telephone"
+                required
+              />
+            </div>
+
+            <div class="info_utilisateur">
+              <label for="commentaire" class="label"
+                >Informations utiles à renseigner:</label
+              >
+              <textarea
+                id="commentaire"
+                class="champ"
+                name="commentaire"
+                rows="10"
+                cols="40"
+              ></textarea>
+            </div>
+
+            <div class="pos_envoie">
+              <button type="submit" class="envoyer">Envoyer</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <h2>Mes coordonnées</h2>
+
+      <section class="contact" id="mes_coordonnees">
+        <!--mes informations de contact-->
+        <div>
+          <div>
+            <div class="coordonnées">
+              <h3>E-mail</h3>
+              <a href="mailto:eliot.tourtelier@gmail.com" class="lien_coor"
+                >eliot.tourtelier@gmail.com</a
+              >
+            </div>
+          </div>
+
+          <div>
+            <div class="coordonnées">
+              <h3>Numéro de téléphone</h3>
+              <a href="tel:0766515447" class="lien_coor">07 66 51 54 47</a>
+            </div>
+
+            <div class="coordonnées">
+              <h3>GitHub</h3>
+              <a href="https://github.com/Eliottr45" class="lien_coor"
+                >https://github.com/Eliottr45</a
+              >
+            </div>
+
+            <div class="coordonnées">
+              <h3>Linkedin</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

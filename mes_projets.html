@@ -1,62 +1,156 @@
 <!DOCTYPE HMTL>
 <hmtl lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mes projets</title>
+    <link rel="stylesheet" href="mes_projets.css" />
+  </head>
 
-    <head>
-        <meta charset="utf-8">
-        <title>Mes projets</title>
-        <link rel="stylesheet" href="mes_projets.css">
-    </head>
+  <body>
+    <header class="container">
+      <div class="affichage_page">
+        <button
+          class="liens"
+          type="button"
+          onclick="window.location.href = 'portfolio.html'"
+        >
+          Ma présentation
+        </button>
 
-    <body>
+        <button
+          class="liens"
+          type="button"
+          onclick="window.location.href = 'mes_projets.html'"
+        >
+          Mes projets
+        </button>
 
-        <h1>
-            <u>Qu'est ce que j'ai pu réaliser à ce jour ?</u>
-        </h1>
+        <button
+          class="liens"
+          type="button"
+          onclick="window.location.href = 'formulaire.html'"
+        >
+          Formulaire
+        </button>
+      </div>
 
-        <h2>
-            <u>Projets réalisés en C:</u>
-        </h2>
+      <button
+        id="contact"
+        type="button"
+        onclick="window.location.href = 'formulaire.html#mes_coordonnees'"
+      >
+        <img
+          src="asset/Photo_TOURTELIER_Eliot_SOURIRE.jpg"
+          alt="Bouton menant à la fiche de contact"
+          width="50"
+          height="50"
+          title="Contact"
+          class="pdp"
+        />
+      </button>
+    </header>
 
-            <h3>
-                <u><a href="https://github.com/Eliottr45/coda-bnv-numero-magique.git" target="_blank"> Projet numéro
-                        magique </a></u>
-            </h3>
+    <main>
+      <h1>Quelles sont les différents projets que j'ai pu réaliser ?</h1>
 
+      <div id="place_c">
+        <h2>Projets réalisés en C:</h2>
+      </div>
 
-        <div class="projets">
-            <img src="asset/numero-magique.jpeg" alt="Jeu du numéro magique." width="250" height="225"title="Numéro magique" />
-
-            <p>Ce projet visé à créer le jeu du "plus ou moins" qui consiste à trouver un nombre prédéfini avec une aide
-                à chaque réponse de l'utilisateur.</p>
-        </div>
-
-
-        <h3>
-            <u><a href="https://github.com/Eliottr45/coda-bnv-tic-tac-toe.git" target="_blank"> Tic-tac-toe</a></u>
+      <div class="align_title" id="numero_magique">
+        <h3 class="nom_projet">
+          <a
+            href="https://github.com/Eliottr45/coda-bnv-numero-magique.git"
+            class="github"
+            target="_blank"
+          >
+            Projet numéro magique
+          </a>
         </h3>
+      </div>
 
+      <div class="projets">
+        <img
+          src="asset/numero-magique2.gif"
+          class="representation"
+          alt="Jeu du numéro magique."
+          width="400"
+          height="225"
+          title="Numéro magique"
+        />
 
-        <div class="projets">
-            <img src="asset/tictactoe.jpeg" alt="Jeu du tic-tac-toe" width="225" height="225" title="Tic-tac-toe" />
+        <p class="description">
+          Le numéro magique se référe au jeu du plus ou moins, le but est de
+          trouver le numéro prédéfini aléatoirement. Pour y parvenir
+          l'utilisateur reçois un indice , soit "C'est plus !" soit "C'est
+          moins", à chaque essaie. <br />
+          Lorsque le joueur tombe sur le bon numéro le jeu s'arrête puis
+          félicite l'utilisateur avant de demander si il veut rejouer.<br />
+          Pour pouvoir visualiser le code du jeu vous pouvez cliquer sur le
+          titre.
+        </p>
+      </div>
 
-            <p>Ce projet reprend le jeu du tic-tac-toe/morpion, où le but est d'aligner trois même symbole à l'intérieur
-                d'une grille de 9 cases.</p>
-        </div>
-
-
-        <h3>
-            <u><a href="https://github.com/Eliottr45/coda-bnv-sokoban.git" target="_blank"> Sokoban</a></u>
+      <div class="align_title">
+        <h3 class="nom_projet">
+          <a
+            href="https://github.com/Eliottr45/coda-bnv-tic-tac-toe.git"
+            class="github"
+            target="_blank"
+          >
+            Tic-tac-toe</a
+          >
         </h3>
+      </div>
 
+      <div class="projets">
+        <img
+          src="asset/tictactoe2.gif"
+          class="representation"
+          alt="Jeu du tic-tac-toe"
+          width="400"
+          height="225"
+          title="Tic-tac-toe"
+        />
 
-        <div class="projets">
-            <img src="asset/sokoban.jpeg" alt="Jeu sokoban" width="350" height="225" title="Sokoban" />
+        <p class="description">
+          Ce projet reprend le jeu du tic-tac-toe/morpion, où le but est
+          d'aligner trois même symbole à l'intérieur d'une grille de 9 cases.
+        </p>
+      </div>
 
-            <p>Le sokoban est un jeu qui consiste à déplacer une boite jusqu'à un point donné afin de gagné la partie.
-                Ce projet reprend le concept de base du jeu mais s'execute directement dans le terminal de l'ordinateur.
-            </p>
-        </div>
+      <div class="align_title">
+        <h3 class="nom_projet">
+          <a
+            href="https://github.com/Eliottr45/coda-bnv-sokoban.git"
+            class="github"
+            target="_blank"
+          >
+            Sokoban</a
+          >
+        </h3>
+      </div>
 
+      <div class="projets">
+        <img
+          src="asset/sokoban2.gif"
+          class="representation"
+          alt="Jeu sokoban"
+          width="400"
+          height="225"
+          title="Sokoban"
+        />
 
-    </body>
+        <p class="description">
+          Le sokoban est un jeu qui consiste à déplacer une boite jusqu'à un
+          point donné afin de gagné la partie. Ce projet reprend le concept de
+          base du jeu mais s'execute directement dans le terminal de
+          l'ordinateur.
+        </p>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
 </hmtl>

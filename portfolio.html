@@ -1,57 +1,160 @@
 <!DOCTYPE HMTL>
 <hmtl lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio d'Eliot Tourtelier</title>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
 
-    <head>
-        <meta charset="utf-8">
-        <title>Portfolio d'Eliot Tourtelier</title>
-        <link rel="stylesheet" href="portfolio.css">
-    </head>
+  <body>
+    <header class="container">
+      <div class="affichage_page">
+        <button
+          class="liens"
+          type="button"
+          onclick="window.location.href = 'portfolio.html'"
+        >
+          Ma présentation
+        </button>
 
-    <body>
+        <button
+          class="liens"
+          type="button"
+          onclick="window.location.href = 'mes_projets.html'"
+        >
+          Mes projets
+        </button>
 
+        <button
+          class="liens"
+          type="button"
+          onclick="window.location.href = 'formulaire.html'"
+        >
+          Formulaire
+        </button>
+      </div>
 
-        <div id="titre">
-            <h1>Mon portfolio</h1>
+      <button
+        id="contact"
+        type="button"
+        onclick="window.location.href = 'formulaire.html#mes_coordonnees'"
+      >
+        <img
+          src="asset/Photo_TOURTELIER_Eliot_SOURIRE.jpg"
+          alt="Bouton menant à la fiche de contact"
+          width="50"
+          height="50"
+          title="Contact"
+          class="pdp"
+        />
+      </button>
+    </header>
 
-            <img src="asset/Photo_TOURTELIER_Eliot_SOURIRE.jpg" alt="Photographie professionnel" width="250"
-                height="280" title="Tourtelier Eliot" />
+    <main>
+      <h1 id="titre">Mon portfolio</h1>
+
+      <section class="presentation">
+        <div class="accueil">
+          <img
+            src="asset/Photo_TOURTELIER_Eliot_SOURIRE.jpg"
+            alt="Photographie professionnel"
+            width="250"
+            height="280"
+            title="Tourtelier Eliot"
+            class="accueil"
+          />
         </div>
 
+        <section class="accueil">
+          <h2 id="titre_bio">Qui suis-je ?</h2>
 
-        <h2>
-            <u>Qui suis-je ?</u>
-        </h2>
-
-        
-        <div id="description">
-            <p>Je suis un developpeur novice de 18 ans qui à découvert l'informatique à travers un projet de page web au lycée.
-                <br>J'étudie à Orléans chez Coda afin de devenir un développeur full stack accompli.
+          <div id="bio">
+            <p>
+              Bonjour, je me présente je suis Eliot Tourtelier. J'ai 18ans et
+              j'étudie actuellement à l'école Coda, située au centre d'Orléans,
+              afin de décrocher un Bachelor Développeur Full Stack.
             </p>
+          </div>
+        </section>
+      </section>
+
+      <h2 id="titre_competences">
+        Quelles sont mes compétences et expériences ?
+      </h2>
+
+      <section id="bloc_competences">
+        <div class="competences">
+          <h3 class="type">Languages de programmation:</h3>
+
+          <div class="logo">
+            <img
+              src="asset/C.png"
+              alt="Logo du language C"
+              width="50"
+              height="50"
+              title="Logo C"
+              class="language"
+            />
+
+            <img
+              src="asset/CSS.png"
+              alt="Logo du language CSS"
+              width="75"
+              height="75"
+              title="Logo CSS"
+              class="language"
+            />
+
+            <img
+              src="asset/html.png"
+              alt="Logo du language HTML"
+              width="80"
+              height="75"
+              title="Logo HTML"
+              class="language"
+            />
+          </div>
+
+          <div class="logo">
+            <img
+              src="asset/python.png"
+              alt="Logo du language python"
+              width="50"
+              height="50"
+              title="Logo python"
+              class="language"
+            />
+
+            <img
+              src="asset/SQL.png"
+              alt="Logo du language SQL"
+              width="75"
+              height="50"
+              title="Logo SQL"
+              class="language"
+            />
+          </div>
         </div>
 
+        <div id="exp">
+          <h3 class="type">Ma première rencontre avec l'informatique:</h3>
 
-        <h2>
-            <u>Quelles sont mes compétences ?</u>
-        </h2>
-
-        <h3>
-            <u>Languages de programmation:</u>
-        </h3>
-
-
-        <div id="languages_prog">
-            <ul>
-                <li>python, intermediaire</li>
-                <li>C, débutant</li>
-                <li>HTML, débutant</li>
-                <li>CSS, débutant</li>
-                <li>SQL, débutant</li>
-            </ul>
-
-            <p>J'ai réalisé quelques projet durant mes études que je vous présente juste <a href="mes_projets.html"> ici
-                </a></p>
+          <p>
+            J'ai découvert l'informatique à travers un projet de page web au
+            lycée. Le fait d'avoir pu créer un site internet par moi même m'a
+            permis de développer un réel intérêt pour l'informatique.
+          </p>
+          <br />
+          <p>
+            Par la suite j'ai continué à apprendre différents languages de
+            programmation ce qui m'a conduit à me lancer dans des études
+            d'informatique.
+          </p>
         </div>
+      </section>
+    </main>
 
-
-    </body>
+    <footer></footer>
+  </body>
 </hmtl>

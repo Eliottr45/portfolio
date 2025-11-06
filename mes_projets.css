@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 5px;
+}
+
+header {
+  background-color: #080d4d;
+  height: 45px;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-bottom: solid;
+  border-bottom-color: #0a0e27;
+  gap: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.affichage_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.liens {
+  color: #fffff5;
+  background: #080d4d;
+  font-size: 18px;
+  font-weight: 450;
+  padding: 3px;
+  border-width: 3px;
+  border-radius: 10px;
+  margin: 5px;
+  border: solid;
+  border-color: #080d4d;
+}
+
+.liens:hover {
+  transform: scale(1.1);
+  color: #080d4d;
+  background: #fffff5;
+  border: solid;
+  border-color: #fffff5;
+}
+
+#contact {
+  color: #0a0e27;
+  border: solid;
+  border-color: #080d4d;
+  background-color: #080d4d;
+  border-width: 3px;
+  border-radius: 10px;
+  margin: 3px;
+  margin-left: auto;
+}
+
+.pdp {
+  border: solid;
+  border-radius: 50%;
+}
+
+#contact:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  display: flex;
+  margin: 15px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 75px;
+  justify-content: center;
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  font-size: 28px;
+}
+
+#place_c {
+  display: flex;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  justify-content: flex-start;
+  background-color: #080d4d;
+}
+
+h2 {
+  display: flex;
+  color: #fffff5;
+  margin: 15px;
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+}
+
+.align_title {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.github {
+  text-decoration: none;
+  color: #0a0e27;
+}
+
+.projets {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  border: solid;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 25px;
+  border-color: #0a0e27;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 30px;
+  background: #fffff5;
+  box-shadow: 9px 9px 3px rgba(227, 227, 227);
+}
+
+.nom_projet {
+  display: inline-flex;
+  justify-content: center;
+  margin: 15px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  font-size: 24px;
+}
+
+.representation {
+  display: flex;
+  border-radius: 10px;
+  margin: 15px;
+  margin-top: 30px;
+}
+
+.description {
+  display: flex;
+  padding: 15px;
+  margin: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+footer {
+  background-color: #080d4d;
+  height: 45px;
+  padding: 10px;
+  margin-top: 30px;
+  border-top: solid;
+  border-bottom-color: #0a0e27;
+  gap: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 75px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+  }
+
+  #place_c {
+    display: flex;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color: #080d4d;
+    justify-content: center;
+  }
+
+  h2 {
+    display: flex;
+    color: #fffff5;
+    margin: 15px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+  }
+
+  .projets {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    border: solid;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 25px;
+    border-color: #0a0e27;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 30px;
+    background: #fffff5;
+    box-shadow: 9px 9px 3px rgba(227, 227, 227);
+  }
+}
