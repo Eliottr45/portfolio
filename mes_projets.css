@@ -171,7 +171,7 @@ footer {
   header {
     background-color: #080d4d;
     height: 45px;
-    width: auto;
+    width: 100%;
     padding: 10px;
     margin-bottom: 30px;
     border-bottom: solid;
