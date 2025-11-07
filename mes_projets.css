@@ -148,6 +148,8 @@ h2 {
   border-radius: 10px;
   margin: 15px;
   margin-top: 30px;
+  width: 400px;
+  height: 225px;
 }
 
 .description {
@@ -227,5 +229,14 @@ footer {
     padding: 30px;
     background: #fffff5;
     box-shadow: 9px 9px 3px rgba(227, 227, 227);
+  }
+
+  .representation {
+    display: flex;
+    border-radius: 10px;
+    margin: 15px;
+    margin-top: 30px;
+    width: 200px;
+    height: 150px;
   }
 }
