@@ -168,6 +168,16 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+  header {
+    background-color: #080d4d;
+    height: 45px;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-bottom: solid;
+    border-bottom-color: #0a0e27;
+    gap: 30px;
+  }
   h1 {
     display: flex;
     margin: 15px;
