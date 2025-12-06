@@ -73,9 +73,9 @@ header {
 
 h1 {
   display: flex;
-  margin: 15px;
-  padding: 15px;
-  padding-left: 30px;
+  margin: 14px;
+  padding: 14px;
+  padding-left: 29px;
   padding-right: 30px;
   margin-bottom: 75px;
   justify-content: center;
@@ -86,7 +86,7 @@ h1 {
 #place_c {
   display: flex;
   margin-top: 75px;
-  margin-bottom: 50px;
+  margin-bottom: 51px;
   border-radius: 10px;
   justify-content: flex-start;
   background-color: #080d4d;
